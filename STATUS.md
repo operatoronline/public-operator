@@ -5,22 +5,29 @@
 ### Overall
 - Repository created for public-release planning.
 - Initial release plan drafted.
-- High-thinking sub-agents being assigned to parallel workstreams.
+- Four workstreams completed: product/onboarding, platform/readiness, services/architecture, and GTM/launch.
+- Cross-workstream recommendation is to launch Operator OS first as a **local-first downloadable product**.
 
-### Current objective
-Define the shortest credible path to:
-1. private alpha,
-2. public beta,
-3. general availability.
+### What changed today
+- Added workstream docs and backlogs for product, platform, services, and GTM.
+- Added synthesis recommendation in `docs/launch-recommendation.md`.
+- Established initial daily-update cadence.
 
-### Open blockers
-- remaining Phase 2 multi-tenant work
-- onboarding and account lifecycle polish
-- public-facing billing and limits model
-- operational reliability and support surface
-- launch narrative, docs, and pricing clarity
+### Key blockers
+- no guided first-run setup funnel yet
+- launch scope ambiguity between local-first and hosted platform
+- diagnostics/support surface needs productization
+- managed-service control plane is not yet defined
+- strongest public claims still need fresh validation
+
+### Recommended immediate priorities
+1. freeze the public launch contract around local-first downloadable product
+2. build the guided first-run checklist in the launcher
+3. add diagnostics export and clearer runtime state visibility
+4. define the managed-service control plane contract
+5. validate performance claims and rewrite the public web surface
 
 ### Next actions
-- complete readiness plan and milestone map
-- parallelize work into product, platform, and launch workstreams
-- begin daily progress reporting
+- keep this repo as the source of truth for public-release execution
+- convert workstream docs into actionable issues and milestones
+- send daily progress updates
